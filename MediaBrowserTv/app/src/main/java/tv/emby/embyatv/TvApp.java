@@ -68,7 +68,7 @@ public class TvApp extends Application {
 
     private boolean isConnectLogin = false;
 
-    private boolean isPaid = false;
+    private boolean isPaid = true;
     private RegistrationInfo registrationInfo;
 
     private Calendar lastPlayback = Calendar.getInstance();
@@ -265,7 +265,6 @@ public class TvApp extends Application {
     }
 
     public void setPaid(boolean isPaid) {
-        this.isPaid = isPaid;
     }
 
     public RegistrationInfo getRegistrationInfo() {
